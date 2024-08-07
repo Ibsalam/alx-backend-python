@@ -7,7 +7,7 @@ This module includes:
 '''
 
 from typing import List
-from 0-async_generator.py import async_generator
+from 0-async_generator import async_generator
 
 async def async_comprehension() -> List[float]:
     '''Collects 10 random numbers using an async comprehension over async_generator.
